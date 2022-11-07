@@ -89,7 +89,7 @@ python3 main.py
 
 ## Run periodically
 
-Add following line to `crontab`:
+Add following line to `crontab` and the script will be executed every 10 minutes.
 
 ```
 10 * * * * python3 /path/to/main.py
