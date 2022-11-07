@@ -18,7 +18,7 @@ AIR_CONDITIONER_ID = os.environ.get('TUYA_AIR_CONDITIONER_DEVICE_ID')
 def get_air_conditioner_status() -> Dict[str, Any]:
     openapi = TuyaOpenAPI(API_ENDPOINT, ACCESS_ID, ACCESS_KEY)
     openapi.connect()
-    response = openapi.get("/v1.0/iot-03/devices/{}".format(AIR_CONDITIONER_ID))
+    response = openapi.get("/v1.0/iot-03/devices/{}/status".format(AIR_CONDITIONER_ID))
     return response
 
 
