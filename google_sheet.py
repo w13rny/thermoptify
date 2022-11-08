@@ -16,7 +16,6 @@ def write_data_to_google_sheet(indoor_temperature: float, outdoor_temperature: f
 
     try:
         sh = gc.open('thermoptify')
-        sh.share(MY_EMAIL, perm_type='user', role='writer')
     except SpreadsheetNotFound:
         sh = gc.create('thermoptify')
         sh.share(MY_EMAIL, perm_type='user', role='writer')
