@@ -69,17 +69,22 @@ sudo apt-get install libgpiod2
 
 # Configuration
 
-Create .env configuration file and fill it with proper data.
+Create `.env` configuration file and fill it with proper data.
 
 ```
+# TUYA
 TUYA_ACCESS_ID=''
 TUYA_ACCESS_KEY=''
 TUYA_API_ENDPOINT=''
 TUYA_MQ_ENDPOINT=''
 TUYA_AIR_CONDITIONER_DEVICE_ID=''
+
+# OPENWEATHERMAP
 OPENWEATHERMAP_API_KEY=''
 HOME_LATITUDE=''
 HOME_LONGITUDE=''
+
+# GOOGLE SHEETS
 GOOGLE_SERVICE_ACCOUNT_JSON_DIRECTORY=''
 MY_EMAIL=''
 ```
