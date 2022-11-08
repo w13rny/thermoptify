@@ -41,6 +41,11 @@ Whole process of registering an account, creating the project, adding the Tuya d
 This project require API key for OpenWeatherMap. Create the free account and get your API key here:
 https://openweathermap.org/api
 
+## Google Drive/Google Sheet API
+
+This project saves the data read into the Google Spreadsheet. You need JSON file with credentials. Here are the instructions how to get one:
+https://docs.gspread.org/en/latest/oauth2.html#for-bots-using-service-account
+
 # Installation
 
 1. Clone this repository.
@@ -75,6 +80,8 @@ TUYA_AIR_CONDITIONER_DEVICE_ID=''
 OPENWEATHERMAP_API_KEY=''
 HOME_LATITUDE=''
 HOME_LONGITUDE=''
+GOOGLE_SERVICE_ACCOUNT_JSON_DIRECTORY=''
+MY_EMAIL=''
 ```
 
 # Run
