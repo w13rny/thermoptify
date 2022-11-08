@@ -1,6 +1,6 @@
 # thermoptify
 
-This is a simple program designed for Rasperry Pi single-board computer.
+This is a simple program designed for Raspberry Pi single-board computer.
 Application changes the settings of the heating device (Tuya Air Conditioner) based on the data collected from DHT22 sensor (indoor temperature) and OpenWeatherAPI (outdoor temperature).
 
 # Prerequisites
@@ -104,5 +104,5 @@ python3 main.py
 Add following line to `crontab` and the script will be executed every 10 minutes.
 
 ```
-10 * * * * python3 /path/to/main.py
+*/10 * * * * python3 /path/to/main.py
 ```
