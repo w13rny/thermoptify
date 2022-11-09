@@ -1,7 +1,13 @@
 # thermoptify
 
-This is a simple program designed for Raspberry Pi single-board computer.
-Application changes the settings of the heating device (Tuya Air Conditioner) based on the data collected from DHT22 sensor (indoor temperature) and OpenWeatherAPI (outdoor temperature).
+This is a simple program designed for **Raspberry Pi** single-board computer.
+
+Application collects and saves following data into **Google Spreadsheet**:
+* current settings of the heating device (**Tuya Air Conditioner**),
+* indoor temperature (**DHT22 sensor**),
+* outdoor temperature (**OpenWeatherAPI**).
+
+Plans for the future include the analysis of the collected data and automatic control of the air conditioner in order to save electricity costs.
 
 # Prerequisites
 
